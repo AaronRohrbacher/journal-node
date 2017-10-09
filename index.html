@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Little Johny's Journal</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script type="text/javascript" src = "build/js/app.js"></script>
+  </head>
+  <body>
+    <h1>Little Johny's Journal</h1>
+    <form id="entry">
+      <label for="title">Enter a Title</label>
+      <input type="text" id="title">
+      <label for="body">Enter a Entry</label>
+      <input type="text" id="body">
+      <button type="submit" class="btn">Write Johny! Write!</button>
+    </form>
+    <div>
+      <h3>Number of words in Entry: <span id="outputWords"></span></h3>
+      <h3>Number of vowels in Entry: <span id="outputVowels"></span></h3>
+      <h2>Number of consonants in Entry: <span id="outputConsonants"></span></h2>
+      <h3>Teaser of Entry: <span id="outputTeaser"></span></h3>
+      <h3>Total Body: <span id="outputBody"></span></h3>
+    </div>
+    <br>
+  </body>
+</html>
